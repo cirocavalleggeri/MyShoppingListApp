@@ -24,7 +24,7 @@ class LocationViewModel:ViewModel() {
         try {
             viewModelScope.launch {
                val result=RetrofitClient.create()
-                           .getAddressFromCoordinates(latlng,"AIzaSyCU3d21SqYzk1fzUK9S35Cn60avoR23j66")
+                           .getAddressFromCoordinates(latlng,"Qui metti la tua chiave visita il sito https://console.cloud.google.com")
              _address.value=result.results
               Log.d("res1","Address:${ _address.value.toString()}" )
 
