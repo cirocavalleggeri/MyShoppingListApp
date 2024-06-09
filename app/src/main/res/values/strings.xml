@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">MyShoppingListApp</string>
-    <string name="API_KEY">AIzaSyCU3d21SqYzk1fzUK9S35Cn60avoR23j66</string>
+    <string name="API_KEY">Qui metti la tua chiave visita il sito https://console.cloud.google.com</string>
 </resources>
